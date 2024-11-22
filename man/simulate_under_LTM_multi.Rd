@@ -117,12 +117,12 @@ full_corrmat <- matrix(0.6, 3, 3)
 diag(full_corrmat) <- 1
 
 simulate_under_LTM_multi(fam_vec = NULL, n_fam = stats::setNames(c(1,1,1,2,2), 
-c("m","mgm","mgf","s","mhs")))
+c("m","mgm","mgf","s","mhs")), n_sim = 10)
 
 simulate_under_LTM_multi(fam_vec = c("m","f","s1"), add_ind = FALSE, 
-genetic_corrmat = genetic_corrmat, full_corrmat = full_corrmat, n_sim = 100)
+genetic_corrmat = genetic_corrmat, full_corrmat = full_corrmat, n_sim = 10)
 
-simulate_under_LTM_multi(fam_vec = c(), n_fam = NULL, add_ind = TRUE, n_sim = 150)
+simulate_under_LTM_multi(fam_vec = c(), n_fam = NULL, add_ind = TRUE, n_sim = 10)
 
 }
 \seealso{

@@ -1,6 +1,6 @@
-5bf339a7690617e1ca65bc1c53b93815 *DESCRIPTION
+77168cc59775040e23fba8d6a695b655 *DESCRIPTION
 656752c6690dbf11a88ed50811bcfe96 *NAMESPACE
-53ebe0034bc65d998db107c1907dfae5 *NEWS.md
+9317dbaaa2146b374256455011ae5e1f *NEWS.md
 e13ee5309f32739e4c079c012e1f695c *R/Covariance_matrix_functions.R
 3c72990ab91045d628d930094579c204 *R/Estimate_liabilities.R
 0cf1e123e9d729a4dba209e7ef4b45d7 *R/Helper_functions.R
@@ -10,13 +10,15 @@ fa5f5a1aecfe2bfddd60041bb983245c *R/LTFHPlus-package.R
 bc9e382d9519da6a2a5b322cc96e0414 *R/Outdated_covariance_matrix_functions.R
 1192839c00a55ad51e8a79bf512bfa4c *R/Outdated_estimate_liabilitites.R
 c59ecab64f669b548cba6775debf5047 *R/RcppExports.R
-b11d124ead5fdd7f18c6ba6279f72d70 *R/Simulate_under_LTM.R
+624b479d6be70a3137237efa317738c6 *R/Simulate_under_LTM.R
 d6c26acf090cc77805cea61b710ce2db *R/The_Gibbs_Sampler.R
 799bc9620e18d30fe66a7e2639803127 *R/est_gen_liab_noFH_corr_trait.R
 c131b0177f92c26824b5f7c363d2237f *R/prepare_LTFHPlus_input.R
+32a79bfdf1af4788cd0f886514550970 *R/tmp.R
+d73c367ae2127e7a496adfe20c007e74 *R/tmp2.R
 407691261b8ccbf48f8b54bd874534c4 *README.md
 b943a1546a1e17be4eea235ec7b4616b *build/partial.rdb
-34ce5804b3f9e37303ed1ca50ddfb0f7 *man/LTFHPlus-package.Rd
+7c4e62a25aa1e1b6e0577530b8392fd8 *man/LTFHPlus-package.Rd
 01d841167485ad8f14bfc11b8449dd2f *man/construct_covmat.Rd
 448a1e81800a4453fcbb427ebae7139a *man/construct_covmat_multi.Rd
 181aaa99314314b56767fc47bf4e34fb *man/construct_covmat_single.Rd
@@ -39,8 +41,8 @@ a80a167899df5895d7b2bce420043226 *man/get_relatedness.Rd
 6592ff47e2e83389febd3d5c471c94b6 *man/prepare_LTFHPlus_input.Rd
 a8c65d01d4efef0a4151c5dc57c57716 *man/prepare_graph.Rd
 4c27e89589d8e75e4a04a4b1c46efe0a *man/rtmvnorm.gibbs.Rd
-43a5089af7cfe750d1b8951b95077282 *man/simulate_under_LTM.Rd
-319c39edcb1dcf0ede14f8449cd4775b *man/simulate_under_LTM_multi.Rd
+f60efff7c0c4dedb9985ee252a7f13a8 *man/simulate_under_LTM.Rd
+b8108ba25104f6f3fdc846ea26493859 *man/simulate_under_LTM_multi.Rd
 f6bff1bea581684f5354b0b5f48ecdfb *man/simulate_under_LTM_single.Rd
 c114a8d539c85580d151256f08bf5bc1 *man/truncated_normal_cdf.Rd
 6c9fcdc09c55e854b115e4a25c9dc925 *src/RcppExports.cpp
