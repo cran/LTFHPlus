@@ -153,7 +153,7 @@ full_corrmat <- matrix(0.6, 3, 3)
 diag(full_corrmat) <- 1
 
 simulate_under_LTM(fam_vec = NULL, n_fam = stats::setNames(c(1,1,1,2,2), 
-c("m","mgm","mgf","s","mhs")), n_sim = 10)
+c("m","mgm","mgf","s","mhs")))
 
 simulate_under_LTM(fam_vec = c("m","f","s1"), n_fam = NULL, add_ind = FALSE, 
 genetic_corrmat = genetic_corrmat, full_corrmat = full_corrmat, n_sim = 200)

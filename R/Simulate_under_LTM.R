@@ -315,12 +315,12 @@ simulate_under_LTM_single <- function(fam_vec = c("m","f","s1","mgm","mgf","pgm"
 #' diag(full_corrmat) <- 1
 #' 
 #' simulate_under_LTM_multi(fam_vec = NULL, n_fam = stats::setNames(c(1,1,1,2,2), 
-#' c("m","mgm","mgf","s","mhs")), n_sim = 10)
+#' c("m","mgm","mgf","s","mhs")))
 #' 
 #' simulate_under_LTM_multi(fam_vec = c("m","f","s1"), add_ind = FALSE, 
-#' genetic_corrmat = genetic_corrmat, full_corrmat = full_corrmat, n_sim = 10)
+#' genetic_corrmat = genetic_corrmat, full_corrmat = full_corrmat, n_sim = 100)
 #' 
-#' simulate_under_LTM_multi(fam_vec = c(), n_fam = NULL, add_ind = TRUE, n_sim = 10)
+#' simulate_under_LTM_multi(fam_vec = c(), n_fam = NULL, add_ind = TRUE, n_sim = 150)
 #' 
 #' @seealso \code{\link{construct_covmat}}
 #' 
@@ -668,7 +668,7 @@ simulate_under_LTM_multi <- function(fam_vec = c("m","f","s1","mgm","mgf","pgm",
 #' diag(full_corrmat) <- 1
 #' 
 #' simulate_under_LTM(fam_vec = NULL, n_fam = stats::setNames(c(1,1,1,2,2), 
-#' c("m","mgm","mgf","s","mhs")), n_sim = 10)
+#' c("m","mgm","mgf","s","mhs")))
 #' 
 #' simulate_under_LTM(fam_vec = c("m","f","s1"), n_fam = NULL, add_ind = FALSE, 
 #' genetic_corrmat = genetic_corrmat, full_corrmat = full_corrmat, n_sim = 200)
@@ -690,7 +690,7 @@ simulate_under_LTM <- function(fam_vec = c("m","f","s1","mgm","mgf","pgm","pgf")
                                n_sim = 1000, 
                                pop_prev = 0.1){
   
-  if (length(h2) == 1) {
+  if(length(h2) == 1){
     
     return(simulate_under_LTM_single(fam_vec = fam_vec, 
                                       n_fam = n_fam, 
@@ -699,7 +699,7 @@ simulate_under_LTM <- function(fam_vec = c("m","f","s1","mgm","mgf","pgm","pgf")
                                       n_sim = n_sim, 
                                       pop_prev = pop_prev))
     
-  } else {
+  }else{
     
     return(simulate_under_LTM_multi(fam_vec = fam_vec, 
                                     n_fam = n_fam, 

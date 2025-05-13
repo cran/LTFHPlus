@@ -1,7 +1,7 @@
 Package: LTFHPlus
 Type: Package
 Title: Implementation of LT-FH++
-Version: 2.1.2
+Version: 2.1.3
 Authors@R: c(
     person("Emil Michael", "Pedersen", email = "emp@ph.au.dk", role = c("aut", "cre")),
     person("Florian", "Privé", email = "florian.prive.21@gmail.com", role = c("aut", "ths")),
@@ -19,22 +19,22 @@ Description: Implementation of LT-FH++, an extension of
     as an extension to LT-FH with more flexible family structures, 
     and again as the age-dependent liability threshold (ADuLT) model
     Pedersen, Emil M., et al. (2023) 
-    <doi:10.1038/s41467-023-41210-z> 
+    <https://www.nature.com/articles/s41467-023-41210-z> 
     as an alternative to traditional time-to-event genome-wide
     association studies, where family history was not considered.
 License: GPL-3
 Imports: batchmeans, dplyr, future.apply, future, purrr, Rcpp, rlang,
         stats, stringr, tibble, tmvtnorm, tidyselect, igraph, xgboost,
         tidyr
-Suggests: MASS, knitr, rmarkdown, testthat
+Suggests: MASS, knitr, rmarkdown, kinship2, testthat
 LinkingTo: Rcpp
 Encoding: UTF-8
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Language: en-GB
 URL: https://github.com/EmilMiP/LTFHPlus
 BugReports: https://github.com/EmilMiP/LTFHPlus/issues
 NeedsCompilation: yes
-Packaged: 2024-11-22 15:18:29 UTC; au483192
+Packaged: 2025-05-13 09:41:04 UTC; au483192
 Author: Emil Michael Pedersen [aut, cre],
   Florian Privé [aut, ths],
   Bjarni Jóhann Vilhjálmsson [ths],
@@ -43,4 +43,4 @@ Author: Emil Michael Pedersen [aut, cre],
   Lucas Rasmussen [ctb]
 Maintainer: Emil Michael Pedersen <emp@ph.au.dk>
 Repository: CRAN
-Date/Publication: 2024-11-22 15:30:02 UTC
+Date/Publication: 2025-05-13 10:00:01 UTC
